@@ -30,7 +30,7 @@ You can play with the algorithm settings by changing parameters in conf.yaml:
 - distance_threshold: distance under which distance score takes 1
 - mid_distance_coefficient: defines distance of average score
 - mid_distance_score: mid distance score
-- distance_weight: distance score weoght in global score
+- distance_weight: distance score weight in global score
 - speed_weight: speed score weight in global score
 
 ## Possible Enhancements
@@ -39,4 +39,5 @@ You can play with the algorithm settings by changing parameters in conf.yaml:
 - Use ship status in STS score
 - Improve distance score calculation: current function very simple constant piecewise
 - Improve positionning accuracy based on speed, course and heading
+- Improve global scoring function: should be based not only on snapshot but on multiple snapshots
 - Ameliorate code decoupling and test coverage
