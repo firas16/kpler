@@ -1,0 +1,7 @@
+global_score_threshold: 0.5 # global score threshold above which we consider the possibility of an STS
+time_frame: 15 # time discretization parameter
+distance_threshold: 10
+mid_distance_coefficient: 3
+mid_distance_score: 0.5
+distance_weight: 0.7
+speed_weight: 0.3
