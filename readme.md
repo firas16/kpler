@@ -26,12 +26,12 @@ The project contains two main scripts:
 You can play with the algorithm settings by changing parameters in conf.yaml:
 
 - global_score_threshold: global score threshold above which we consider the possibility of an STS
-- time_frame: time discretization parameter
-- distance_threshold: distance under which distance score takes 1
-- mid_distance_coefficient: defines distance of average score
-- mid_distance_score: mid distance score
-- distance_weight: distance score weight in global score
-- speed_weight: speed score weight in global score
+- time_frame: time discretization parameter. (default 15min)
+- distance_threshold: distance under which distance score takes 1. (default 10m)
+- mid_distance_coefficient: defines distance of average score. (default 3)
+- mid_distance_score: mid distance score. (default 0.5)
+- distance_weight: distance score weight in global score. (default 0.7)
+- speed_weight: speed score weight in global score. (default 0.3)
 
 ## Possible Enhancements
 
